@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".taekbae"></activity>
+        <activity android:name=".postbox"></activity>
+        <activity android:name=".taxi"></activity>
+        <activity android:name=".ask"></activity>
+
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".SplashScreen">
             <intent-filter>

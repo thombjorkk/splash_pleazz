@@ -3,11 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".taekbae">
+    tools:context=".postbox"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="택배 재생창 ψ(｀∇´)ψ"></TextView>
+        android:text="택시 재생창 ψ(｀∇´)ψ"></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_taxi"
+        android:layout_gravity="center"></ImageView>
 
 </LinearLayout>

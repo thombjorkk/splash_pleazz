@@ -15,7 +15,7 @@
         android:layout_gravity="center">
 
         <Button
-            android:id="@+id/btn_taekbae"
+            android:id="@+id/btn_postbox"
             android:layout_height="150dp"
             android:layout_width="300dp"
             android:layout_weight="1"
