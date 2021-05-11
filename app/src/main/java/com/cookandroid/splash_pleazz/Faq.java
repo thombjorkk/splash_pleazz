@@ -25,18 +25,18 @@ public class Faq extends AppCompatActivity {
 
         array_Faq = new ArrayList<>();
         array_Faq.add("Q1) 곽두팔 앱에 대해서 알려주세요");
-        array_Faq.add("Q2");
-        array_Faq.add("Q3");
-        array_Faq.add("Q4");
-        array_Faq.add("Q5");
-        array_Faq.add("Q6");
-        array_Faq.add("Q7");
-        array_Faq.add("Q8");
-        array_Faq.add("Q9");
-        array_Faq.add("Q10");
-        array_Faq.add("Q11");
-        array_Faq.add("Q12");
-        array_Faq.add("Q13");
+        array_Faq.add("Q2) 곽두팔 앱은 어떻게 사용하나요?");
+        array_Faq.add("Q3) 코딩 너무 어려워요!!!!");
+        array_Faq.add("Q4) 코딩 너무 어려워요!!!!");
+        array_Faq.add("Q5) 코딩 너무 어려워요!!!!");
+        array_Faq.add("Q6) 코딩 너무 어려워요!!!!");
+        array_Faq.add("Q7) 코딩 너무 어려워요!!!!");
+        array_Faq.add("Q8) 코딩 너무 어려워요!!!!");
+        array_Faq.add("Q9) 코딩 너무 어려워요!!!!");
+        array_Faq.add("Q10) 코딩 너무 어려워요!!!!");
+        array_Faq.add("Q11) 코딩 너무 어려워요!!!!");
+        array_Faq.add("Q12) 코딩 너무 어려워요!!!!");
+        array_Faq.add("Q13) 코딩 너무 어려워요!!!!");
 
         mFaqAdapter = new FaqAdapter(mContext,array_Faq);
         mListView.setAdapter(mFaqAdapter);

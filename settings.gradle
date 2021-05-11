@@ -1,2 +1,5 @@
+include ':app_login'
 include ':app'
 rootProject.name='splash_pleazz'
+
+

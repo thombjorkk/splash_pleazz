@@ -19,8 +19,12 @@ public class FragmentPage3 extends Fragment implements View.OnClickListener{
         View view = inflater.inflate(R.layout.fragment_page_3, container, false);
 
         Button btn_faq = view.findViewById(R.id.btn_faq);
+        Button btn_login = view.findViewById(R.id.btn_login);
+        Button btn_search_test = view.findViewById(R.id.btn_search_test);
 
         btn_faq.setOnClickListener(this);
+        btn_login.setOnClickListener(this);
+        btn_search_test.setOnClickListener(this);
 
         return view;
     }
@@ -34,6 +38,14 @@ public class FragmentPage3 extends Fragment implements View.OnClickListener{
         switch (v.getId()){
             case R.id.btn_faq:
                 Intent intent = new Intent(getActivity(), Faq.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_login:
+                intent = new Intent(getActivity(), com.cookandroid.myapplication.MainActivity.class); // import 한 모듈의 class 로 페이지 넘길때
+                startActivity(intent);
+                break;
+            case R.id.btn_search_test:
+                intent = new Intent(getActivity(), Search_test.class);
                 startActivity(intent);
                 break;
         }

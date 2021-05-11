@@ -16,26 +16,29 @@
 
         <Button
             android:id="@+id/btn_postbox"
-            android:layout_height="150dp"
-            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_width="150dp"
             android:layout_weight="1"
             android:text="택배"
+            android:backgroundTint="#AB837F"
             ></Button>
 
         <Button
             android:id="@+id/btn_taxi"
-            android:layout_height="150dp"
-            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_width="150dp"
             android:layout_weight="1"
             android:text="택시"
+            android:backgroundTint="#EDD976"
             ></Button>
 
         <Button
             android:id="@+id/btn_ask"
-            android:layout_height="150dp"
-            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_width="150dp"
             android:layout_weight="1"
             android:text="멘트신청"
+            android:backgroundTint="#C39EC8"
             ></Button>
 
         </LinearLayout>
