@@ -1,13 +1,13 @@
 package com.cookandroid.myapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatButton;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import com.google.android.material.textfield.TextInputEditText;
 
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.scroll_view_test);
 
         TextInputEditText_Email = findViewById(R.id.TextInputEditText_Email);                        //xml과 java의 각 기능 매칭
         TextInputEditText_Password = findViewById(R.id.TextInputEditText_Password);
