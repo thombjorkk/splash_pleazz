@@ -30,4 +30,19 @@
         >
     </Button>
 
+    <Button
+        android:id="@+id/btn_database_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="database test"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btn_storage_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="storage test"
+        >
+    </Button>
+
 </LinearLayout>

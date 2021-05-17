@@ -21,10 +21,17 @@ public class FragmentPage3 extends Fragment implements View.OnClickListener{
         Button btn_faq = view.findViewById(R.id.btn_faq);
         Button btn_login = view.findViewById(R.id.btn_login);
         Button btn_search_test = view.findViewById(R.id.btn_search_test);
+        Button btn_database_test = view.findViewById(R.id.btn_database_test);
+        Button btn_storage_test = view.findViewById(R.id.btn_storage_test);
+
+
 
         btn_faq.setOnClickListener(this);
         btn_login.setOnClickListener(this);
         btn_search_test.setOnClickListener(this);
+        btn_database_test.setOnClickListener(this);
+        btn_storage_test.setOnClickListener(this);
+
 
         return view;
     }
@@ -48,6 +55,15 @@ public class FragmentPage3 extends Fragment implements View.OnClickListener{
                 intent = new Intent(getActivity(), Search_test.class);
                 startActivity(intent);
                 break;
+            case R.id.btn_database_test:
+                intent = new Intent(getActivity(), DatabaseTest.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_storage_test:
+                intent = new Intent(getActivity(), StreamingActivity.class);
+                startActivity(intent);
+                break;
+
         }
     }
 }
